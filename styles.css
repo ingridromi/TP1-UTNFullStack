@@ -4,24 +4,40 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-:root{--color-primario: black}
-:root{--color-secundario: rgb(185, 182, 182)}
+:root {
+    --color-primario: black
+}
+
+:root {
+    --color-secundario: rgb(185, 182, 182)
+}
 
 
-.container {
-    background-image: url(/img/engranaje.jpg);
+body {
+    position: relative;
+    width: 100vw;
+    background-image: url(/img/engranaje-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+
+
 
 }
+
+
 
 nav {
     width: 100vw;
     display: flex;
-    background-color: rgb(185, 182, 182);
+    background-color: rgb(126, 125, 125);
     justify-content: flex-end;
     flex-direction: column;
     padding: 2px 4px;
     color: var(--color-primario);
-    
+
 
 }
 
@@ -38,41 +54,122 @@ nav {
     width: 50px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 h2 {
     font-family: "Kaushan Script", cursive;
     font-size: 40px;
 }
-.nav2-ul{
-    display:flex;
-    justify-content:flex-end ;
-   
+
+.nav2-ul {
+    display: flex;
+    justify-content: flex-end;
+
 
 }
-.nav2-ul, li ,a {
-   
+
+.nav2-ul,
+li,
+a {
+
     display: flex;
     list-style: none;
     margin: 3px;
     text-decoration: solid;
-    
-   
+
+
 
     list-style: none;
     text-decoration: none;
     color: var(--color-primario)
-    
-
-
 }
 
-#s1{background-color: var(--color-secundario);
+#s1 {
+    background-color: var(--color-secundario);
     border: none;
 }
-.nav2-ul li:hover{
+
+.nav2-ul li:hover {
     background-color: gray;
-   
+
 }
-.nav2-ul li a:hover{
-   color:wheat
+
+.nav2-ul li a:hover {
+    color: wheat;
+
+}
+
+.container {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.774);
+    height: 350px;
+    padding: 30px;
+    display: grid;
+
+    grid-template-columns: 33.3% 33.3%33.3%;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.container div {
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    justify-content: center;
+    align-content: space-evenly;
+    margin: auto;
+
+}
+
+.container2 {
+    background-color: rgba(255, 255, 255, 0.774);
+    margin-top: 2px solid rgb(17, 16, 16);
+    height: 800px;
+    width: 80vw;
+}
+
+.container div img {
+    width: 100%;
+
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    height: 100px;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 80vw;
+    
+}
+.footer2 {
+    display: flex;
+    
+    justify-content: end;
+    width: 20vh;
+  
+    
    
+
+}
+.footer2 a{
+    
+    margin: 0px 5px;
 }
