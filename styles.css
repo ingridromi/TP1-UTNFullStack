@@ -95,7 +95,8 @@ a {
 }
 
 .nav2-ul li:hover {
-    background-color: gray;
+    background-color: rgb(49, 48, 48);
+   /* text-decoration: underline solid white; */
 
 }
 
@@ -125,6 +126,8 @@ a {
     justify-content: center;
     align-content: space-evenly;
     margin: auto;
+    background-color: white;
+    box-shadow: 1px 2px 3px;
 
 }
 
