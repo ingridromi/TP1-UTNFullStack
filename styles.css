@@ -463,6 +463,28 @@ footer {
     align-content: center;
 }
 
+.arrow {
+    background-color: white;
+    border: none
+}
+
+
+.arrow i:hover {
+    color: rgb(191, 154, 202);
+    background-color: white;
+}
+
+.arrow i:active {
+    color: black;
+    background-color: white;
+}
+
+
+.arrow i {
+    font-size: 45px;
+    color: blue
+}
+
 .wpp img {
     padding-left: 8px;
     height: 44px;
