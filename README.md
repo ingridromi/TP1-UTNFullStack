@@ -2,4 +2,7 @@
 Primer desarrollo web
 tema: relojería
 venta de productos
-manejo de flexbox
+outlet de la tienda
+novedades de productos
+servicio técnico de relojería
+
