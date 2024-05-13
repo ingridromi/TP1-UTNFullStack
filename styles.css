@@ -49,7 +49,12 @@ body {
     align-items: center;
     /* flex-grow: 100%; */
 }
-
+.ccimg {
+    height: 175px;
+    width: 175px;
+    object-fit: fill;
+    align-items: center;
+}
 
 
 .contenedor-general {
@@ -160,6 +165,7 @@ a {
     align-items: center;
     align-content: center;
     font-size: 25px;
+    padding: 15px 10px;
 }
 
 
